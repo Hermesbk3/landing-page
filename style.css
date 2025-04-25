@@ -5,6 +5,7 @@
     padding: 0px;
 }
 
+/*header*/
 li {
     list-style: none;
 }
@@ -20,4 +21,47 @@ ul {
     display: flex;
     gap: 20px;
     list-style: none;
+}
+
+/*hero section*/
+.features {
+    background-color:#1F2937;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0px 30px;
+    height: 500px;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: normal;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 12px;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.image-hero {
+    margin-left: 120px;
+}
+
+.button {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 36px;
+    font-weight: bold;
+    margin-top: 15px;
+    width: 220px;
+    font-size: large;
 }
