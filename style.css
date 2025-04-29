@@ -94,3 +94,33 @@ p {
     border-radius: 15px;
     padding: 20px;
 }
+
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 75px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.actual-quote {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.quote-attribution {
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 15px;
+    text-align: end;
+}
+
+
