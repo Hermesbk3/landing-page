@@ -123,4 +123,22 @@ p {
     text-align: end;
 }
 
+/*Contact Us*/
+.blue-container {
+    display: flex;
+    background-color: #3882f6;
+    margin: 150px 120px;
+    padding: 70px;
+    border-radius: 20px;
+    justify-content: space-between;
+}
 
+.button-contact {
+    background-color: transparent;
+    padding: 10px 45px;
+    border-radius: 10px;
+    font-weight: 700;
+    color: white;
+    border: solid 2px;
+    font-size: 18px;
+}
