@@ -142,3 +142,16 @@ p {
     border: solid 2px;
     font-size: 18px;
 }
+
+footer {
+    background-color: #1F2937;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-footer {
+    color: rgb(218, 190, 31);
+    font-size: 24px;
+}
